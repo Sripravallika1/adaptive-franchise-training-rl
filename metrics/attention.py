@@ -1,0 +1,3 @@
+# Attention consistency metric
+
+# Your code here...

@@ -1,0 +1,3 @@
+# Error pattern detection
+
+# Your code here...
