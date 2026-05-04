@@ -34,6 +34,4 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"Average mastery count - Control:   {sum(l['mastery_count'] for l in control) / len(control):.2f}")
     print(f"Average mastery count - Treatment: {sum(l['mastery_count'] for l in treatment) / len(treatment):.2f}")
-    print("=" * 60)# Entry point
-
-# Your code here...
+    print("=" * 60)
