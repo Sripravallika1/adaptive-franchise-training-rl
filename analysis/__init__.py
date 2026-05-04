@@ -1,0 +1,3 @@
+# analysis/__init__.py
+from analysis.metrics_over_time import track_metrics_over_time, average_tracking_across_group, print_learning_curves
+from analysis.learning_profiles import classify_group, print_profile_summary
