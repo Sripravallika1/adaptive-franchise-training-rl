@@ -1,3 +1,36 @@
-# constants.py
+# Mastery
+MASTERY_ACCURACY = 0.80
+MASTERY_MIN_ATTEMPTS = 5
 
-# All specifications go here.
+# Spaced Repetition
+REVIEW_INTERVALS_DAYS = [1, 3, 7, 14]
+
+# Knowledge Decay
+DECAY_RATE_PER_DAY = 0.10
+DECAY_TYPE = "exponential"
+REVIEW_TRIGGER_THRESHOLD = 0.60
+
+# Difficulty
+DIFFICULTY_LEVELS = ["easy", "medium", "hard"]
+SUCCESS_RATE_MULTIPLIERS = {"easy": 0.75, "medium": 0.55, "hard": 0.35}
+
+# Micro-Skills
+NUM_SKILLS_PER_LEARNER = 5
+SKILL_STRUCTURE = "independent"
+
+# Struggle Detection
+IMPULSIVE_RT_THRESHOLD = 2.0
+IMPULSIVE_ACCURACY_THRESHOLD = 0.50
+OVERLOAD_RT_THRESHOLD = 10.0
+OVERLOAD_ACCURACY_THRESHOLD = 0.50
+STUCK_WRONG_IN_A_ROW = 3
+
+# Simulation
+NUM_LEARNERS = 50
+NUM_ROUNDS = 20
+RUN_CONTROL_GROUP = True
+RUN_TREATMENT_GROUP = True
+
+# Knowledge Review
+KNOWLEDGE_REVIEW_INCREASE = 0.15
+DECAY_CHECK_INTERVAL = 7
