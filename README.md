@@ -153,10 +153,10 @@ The combination of RL-inspired policy, behavioral signal tracking, cognitive loa
 
 If referencing this work:
 
-> [Author]. (2026). *Adaptive Reinforcement Learning for Franchise Training: Cognitive Load, Attention, and Performance in Quick-Service Restaurant Systems.* Advances in Business Management Conference, Palma de Mallorca, Spain.
+> [Author]. (2026). *Adaptive Reinforcement Learning for Franchise Training: Cognitive Load, Attention, and Performance in Quick-Service Restaurant Systems.* 
 
 ---
 
 ## Contact
 
-University of Louisville | Yum! Center for Global Franchise Excellence
+University of Louisville | PHD Student
