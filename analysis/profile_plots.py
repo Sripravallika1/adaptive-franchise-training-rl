@@ -7,13 +7,12 @@ Supports RQ4: adaptive system detects and responds to distinct learner types.
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-
 from analysis.learning_profiles import classify_learner
 from analysis.metrics_over_time import track_metrics_over_time
 
 
 def group_by_profile(learner_profiles):
-    """Groups learners by behavioral profile."""
+    """Groups learners by their behavioral profile."""
     grouped = {}
     for learner in learner_profiles:
         profile, _, _ = classify_learner(learner)
