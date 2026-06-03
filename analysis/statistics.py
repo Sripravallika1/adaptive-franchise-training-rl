@@ -1,8 +1,3 @@
-"""
-analysis/statistics.py
-Computes Cohen's d effect sizes between control and treatment groups.
-"""
-
 import numpy as np
 
 
@@ -18,7 +13,7 @@ def cohens_d(group1, group2):
 
 
 def interpret_d(d):
-    """Returns a human-readable interpretation of Cohen's d."""
+    """Returns interpretation of Cohen's d."""
     abs_d = abs(d)
     if abs_d < 0.2:
         return "negligible"
@@ -48,7 +43,7 @@ def compute_effect_sizes(control_results, treatment_results):
 
 
 def print_effect_sizes(effect_sizes):
-    """Prints effect sizes in a clean table format."""
+    """Prints effect sizes in a clean table."""
     print("\n" + "=" * 70)
     print("  EFFECT SIZES (Cohen's d) — Control vs Treatment")
     print("=" * 70)
