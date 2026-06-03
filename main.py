@@ -1,6 +1,6 @@
 """
 main.py
-Entry point for the KFC Franchise Adaptive Training Simulation.
+Entry point for the Franchise Adaptive Training Simulation.
 Includes: seed control, Cohen's d, profile curves, time to competency.
 """
 
@@ -53,11 +53,11 @@ if __name__ == "__main__":
                 "cognitive_load", "error_pattern"]:
         c = avg_metric(control_results, key)
         t = avg_metric(treatment_results, key)
-        print(f"  {key:<22} {c:<14.3f} {t:<14.3f} {t-c:<+.3f}")
+        print(f"  {key:<22} {c:<14.3f} {t:<14.3f} {t - c:<+.3f}")
 
     print("=" * 70)
-    print(f"  Avg mastery — Control:   {sum(l['mastery_count'] for l in control_results)/len(control_results):.2f}")
-    print(f"  Avg mastery — Treatment: {sum(l['mastery_count'] for l in treatment_results)/len(treatment_results):.2f}")
+    print(f"  Avg mastery — Control:   {sum(l['mastery_count'] for l in control_results) / len(control_results):.2f}")
+    print(f"  Avg mastery — Treatment: {sum(l['mastery_count'] for l in treatment_results) / len(treatment_results):.2f}")
 
     effect_sizes = compute_effect_sizes(control_results, treatment_results)
     print_effect_sizes(effect_sizes)
