@@ -33,8 +33,12 @@ def compute_group_competency(learner_profiles):
             never_mastered += 1
     total = len(learner_profiles)
     if not times:
-        return {"mean_rounds": None, "median_rounds": None,
-                "pct_mastered": 0.0, "never_mastered": never_mastered}
+        return {
+            "mean_rounds": None,
+            "median_rounds": None,
+            "pct_mastered": 0.0,
+            "never_mastered": never_mastered
+        }
     return {
         "mean_rounds": round(float(np.mean(times)), 2),
         "median_rounds": round(float(np.median(times)), 2),
